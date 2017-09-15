@@ -1,0 +1,24 @@
+{
+    "name": "zym1990/myModuleTest",
+    "authors": [
+        {
+            "name": "Zhang Min",
+            "email": "614810608@qq.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5.9"
+    },
+    "autoload":{
+        "psr-4":{
+            "Zym1990\\Learning\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zym1990\\Learning\\Providers\\LearningServiceProvider"
+            ]
+        }
+    }
+}
